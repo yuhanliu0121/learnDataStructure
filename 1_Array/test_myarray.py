@@ -1,8 +1,8 @@
-import myarray
+from myarray import Array
 
 #===============Test Array==============
 
-array = myarray.Array(5)
+array = Array(5)
 
 print("test getitem and set item")
 for i in range(len(array)):
