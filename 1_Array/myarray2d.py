@@ -8,6 +8,7 @@ class Array2D:
 		self._row_array = Array(num_row)
 		for i in range(num_row):
 			self._row_array[i] = Array(num_col)
+		self.clear(None)
 			
 	def num_rows(self):
 		return len(self._row_array)
