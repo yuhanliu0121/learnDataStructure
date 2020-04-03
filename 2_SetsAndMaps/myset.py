@@ -1,5 +1,5 @@
 class Set:
-	def __init__():
+	def __init__(self):
 		self._elements = list()
 	
 	def __len__(self):
@@ -56,8 +56,11 @@ class Set:
 			if e  not in other_set:
 				new_set.add(e)
 		for e in other_set:
-			if e not in self
+			if e not in self:
 				new_set.add(e)
 		return new_set
+	
+	def __str__(self):
+		return str(self._elements)
 	
 			
