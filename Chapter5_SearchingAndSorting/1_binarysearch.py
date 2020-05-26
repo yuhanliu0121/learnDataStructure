@@ -13,5 +13,3 @@ def binary_search(search_list, value):
 		if search_list[pointer_mid] < value:
 			pointer_low = pointer_mid + 1
 	return None
-    
-    # omit 2 comma of if statement
