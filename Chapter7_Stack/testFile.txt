@@ -1,0 +1,10 @@
+# include<stdio.h>
+
+int main(){
+
+string = "hello,world"
+number = (3+5) * 6
+printf(string)
+printf("%d"@ )number )
+
+}
