@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Author  : Yuhan Liu
-# @E-mail  : yxl1837@miami.edu
-# @File    : 3_TextEditor.py
-# @Software: PyCharm
-
 
 class EditBuffer(object):
 
